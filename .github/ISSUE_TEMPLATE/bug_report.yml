@@ -1,0 +1,65 @@
+name: Ошибка / Bug report
+description: Что-то работает не так, как ожидалось / Something does not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо, что сообщили об ошибке! Не публикуйте здесь личные данные, пароли и лицензионные ключи.
+        Thank you for the report! Please do not post personal data, passwords or license keys here.
+
+  - type: input
+    id: version
+    attributes:
+      label: Версия QuickRAMDisk / QuickRAMDisk version
+      description: «Настройки → О программе» или `--version` для CLI / "Settings → About" or `--version` for the CLI
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: package
+    attributes:
+      label: Вариант / Package
+      options:
+        - Setup (установщик / installer)
+        - Portable
+        - CLI
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows
+      description: «Параметры → Система → О системе» / "Settings → System → About"
+      placeholder: "Windows 11 Pro 24H2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги для воспроизведения / Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Что ожидалось и что произошло / Expected and actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Лог / Log
+      description: |
+        Фрагмент `app-*.log` или `cli-*.log` из `%APPDATA%\QuickRAMDisk\logs` за время, когда произошла ошибка.
+        The relevant part of `app-*.log` or `cli-*.log` from `%APPDATA%\QuickRAMDisk\logs`.
+      render: text
