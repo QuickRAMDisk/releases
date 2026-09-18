@@ -18,7 +18,7 @@ QuickRAMDisk создаёт RAM-диски в Windows 10/11 — виртуаль
 
 | Файл | Что это |
 |---|---|
-| `QuickRAMDisk-X.Y.Z-Setup.exe` | Установщик. Нужен [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0) |
+| `QuickRAMDisk-X.Y.Z-Setup.exe` | Установщик. Если на компьютере нет [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0), установщик скачает и поставит его сам |
 | `QuickRAMDisk-X.Y.Z-Portable.exe` | Приложение без установки, .NET уже внутри |
 | `QuickRAMDisk-X.Y.Z-CLI.exe` | Утилита командной строки без установки, .NET уже внутри |
 
@@ -55,11 +55,11 @@ QuickRAMDisk-X.Y.Z-CLI.exe --help
 
 ### Лицензия
 
-QuickRAMDisk — проприетарная программа. Условия использования — в [лицензионном соглашении](EULA.md) (также на [сайте](https://quickramdisk.pro/eula.html)).
+QuickRAMDisk — проприетарная программа. Условия использования — в [лицензионном соглашении](EULA.md) (также на [сайте](https://quickramdisk.pro/eula.html?lang=ru)). Бесплатная версия Free — для личного некоммерческого использования.
 
 Сторонние компоненты: [ImDisk Toolkit](https://ltr-data.se/opencode.html/) (MIT License, © Olof Lagerkvist).
 
-© 2026 QuickRAMDisk / SeoWizard · [dev@quickramdisk.pro](mailto:dev@quickramdisk.pro)
+© 2026 QuickRAMDisk Team · [dev@quickramdisk.pro](mailto:dev@quickramdisk.pro)
 
 ---
 
@@ -69,7 +69,7 @@ QuickRAMDisk creates RAM disks on Windows 10/11 — virtual disks in memory that
 
 This repository hosts **ready-to-use builds** and accepts **bug reports and feature requests**. The source code is not published here.
 
-Website: [quickramdisk.pro](https://quickramdisk.pro/?lang=en)
+Website: [quickramdisk.pro](https://quickramdisk.pro/en/)
 
 ### Download
 
@@ -77,7 +77,7 @@ Get the latest version on the [Releases](https://github.com/QuickRAMDisk/release
 
 | File | What it is |
 |---|---|
-| `QuickRAMDisk-X.Y.Z-Setup.exe` | Installer. Requires [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0) |
+| `QuickRAMDisk-X.Y.Z-Setup.exe` | Installer. If the [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0) is missing, the installer downloads and installs it for you |
 | `QuickRAMDisk-X.Y.Z-Portable.exe` | Application without installation, .NET included |
 | `QuickRAMDisk-X.Y.Z-CLI.exe` | Command-line tool without installation, .NET included |
 
@@ -114,8 +114,8 @@ Open an [issue](https://github.com/QuickRAMDisk/releases/issues/new/choose) and 
 
 ### License
 
-QuickRAMDisk is proprietary software. See the [License Agreement](EULA.md) (also on the [website](https://quickramdisk.pro/eula.html?lang=en)).
+QuickRAMDisk is proprietary software. See the [License Agreement](EULA.md) (also on the [website](https://quickramdisk.pro/eula.html?lang=en)). The free edition is for personal non-commercial use.
 
 Third-party components: [ImDisk Toolkit](https://ltr-data.se/opencode.html/) (MIT License, © Olof Lagerkvist).
 
-© 2026 QuickRAMDisk / SeoWizard · [dev@quickramdisk.pro](mailto:dev@quickramdisk.pro)
+© 2026 QuickRAMDisk Team · [dev@quickramdisk.pro](mailto:dev@quickramdisk.pro)
